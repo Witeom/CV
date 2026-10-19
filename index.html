@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV page of Witek Najman</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <img src="Photos/Witek.jpg" alt="" class="myself">
+            <div class="smallInfo">
+                <h1 class="whitetxt">Witek Najman</h1>
+                <h2 class="whitetxt">07.05.2009</h2>
+            </div>
+            <div class="links">
+                <a href="https://spotify.com" target="blank"> <img src="Photos/Icons/spotify.png" alt="" class="icon"> </a>
+                <a href="https://steamcommunity.com/id/witeom/" target="blank"> <img src="Photos/Icons/steam.png" alt="" class="icon"> </a>
+                <a href="" target="blank"> <img src="" alt="" class="icon"> </a>
+                <a href="" target="blank"> <img src="" alt="" class="icon"> </a>
+            </div>
+        </div>  
+
+        <div class="body">
+            <div class="ilike">
+                <div class="ilikedevide"> <h1 class="whitetxt">Things I Like</h1> </div>
+                <div class="ilikedevide" onclick="showGameMenu()"> <img src="Photos/Buttons/games.png" alt="" class="games buttonsetting"> </div>
+                <div class="ilikedevide" onclick="showMangaMenu()"> <img src="Photos/Buttons/manga.png" alt="" class="manga buttonsetting"> </div>
+                <div class="ilikedevide" onclick="showMusicMenu()"> <img src="Photos/Buttons/music.png" alt="" class="music buttonsetting"> </div>
+                <div class="ilikedevide" onclick="showCatsMenu()"> <img src="Photos/Buttons/cats.png" alt="" class="cats buttonsetting"> </div>
+                <div class="ilikedevide" onclick="showCloudsMenu()"> <img src="Photos/Buttons/clouds.png" alt="" class="clouds buttonsetting"> </div>
+            </div>
+            <div>
+                <h1 class="whitetxt"> Other Stuff About Me </h1>
+                <hr>
+                <h2 class="whitetxt"> 
+                    I started coding more when I went to High School. I know how to code in C++, HTML, CSS and JS. For other languages I know a little bit of Java. <br>
+                    I'm also learning how to draw in my free time. I always wanted to make something like a game or art, something that people would enjoy. <br>
+                    I hate AI I would rather spend long time on something like a project and not even consider checking AI. <br>
+                    When I look for information to help me with something I mostly look up reddit or other pages to see if people had the same problem. <br>
+                    I'm not the best at working in group, but I keep trying. Of course it depends on other people too.
+                </h2>
+                <br> <hr> <hr>
+                <h1 class="whitetxt"> Education </h1>
+                <hr>
+                <h2 class="whitetxt">
+                    2015-2018: Elementary School nr 2 im. ks. J. Twardowskiego w Białymstoku <br>
+                    2018-2019: Private Elementary School Słoneczna w Białymstoku <br>
+                    2020-2022: Elemenatry School im. sw. Kazimierza Krolewicza w Białymstoku <br>
+                    2023: Zespoł Szkol Technicznych im. gen. W. Andersa (Railwayman) <br>
+                    2024-2026: Zespoł Szkol Technicznych im. gen. W. Andersa (Programmer)
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="hobbyMenu" class="hidden">
+        <div class="menutopsection">
+            <div class="menubuttondiv">
+                <h2 id="menugamebutton" class="menubutton" onclick="showGameMenu()"> Games </h2>
+                <h2 id="menumangabutton" class="menubutton" onclick="showMangaMenu()"> Manga </h2>
+                <h2 id="menumusicbutton" class="menubutton" onclick="showMusicMenu()"> Music </h2>
+                <h2 id="menucatbutton" class="menubutton" onclick="showCatsMenu()"> Cats </h2>
+                <h2 id="menucloudbutton" class="menubutton" onclick="showCloudsMenu()"> Clouds </h2>
+            </div>
+            <h1 class="close" onclick="closeTab()"> X </h1> 
+        </div>
+
+        <div id="menuGames" class="hidden">
+            <div class="row IIrow"> 
+                <section class="hobbyimg" onclick="minecraftMenu()"> <img src="Photos/Content/Games/Minecraft.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Games/GeometryDash.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Games/Terraria.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Games/Deadlock.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Games/DeepRockGalactic.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Games/Satisfactory.png" alt=""> </section>
+            </div>
+            <div class="row IIrow">
+                <section class="hobbyimg"> <img src="Photos/Content/Games/BloonsTD6.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Games/RiskOfRain2.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Games/Cyberpunk2077.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Games/Factorio.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Games/NoMansSky.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Games/Mindustry.png" alt=""> </section>
+            </div>
+        </div>
+
+        <div id="menuManga" class="hidden">
+            <h1> Manga </h1>
+            <div class="row IIrow"> 
+                <section class="hobbyimg"> <img src="Photos/Content/Manga/bloomintoyou.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Manga/chainsawman.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Manga/firepunch.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Manga/girlslasttour.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Manga/howdoiturnmybestfriendintoagirlfriend.png" alt=""> </section>
+            </div>
+            <div class="row IIrow"> 
+                <section class="hobbyimg"> <img src="Photos/Content/Manga/iwanttoloveyoutillyourdyingday.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Manga/lesbianbrothels.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Manga/loveanddreamsdontmix.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Manga/wispermealovesong.png" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Manga/zenra.zip.png" alt=""> </section>
+            </div>
+        </div>
+
+        <div id="menuMusic" class="hidden">
+            <div class="row"> 
+                <section class="hobbyimg"> <img src="Photos/Content/Music/" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Music/" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Music/" alt=""> </section>
+            </div>
+        </div>
+
+        <div id="menuCats" class="hidden">
+            <div class="row IIIrow"> 
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/blowcat.jpg" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/autisticeyes.png" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catanger.jpg" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/cataugh.png" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catpenis.jpg" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/unifloat.jpg" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catmy.jpg" alt=""> </section>
+            </div>
+            <div class="row IIIrow">
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catmy1.jpg" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catmy2.jpg" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catmy3.jpg" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catmy4.jpg" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catmy5.jpg" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catmy6.jpg" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catmy7.jpg" alt=""> </section>
+            </div>
+            <div class="row IIIrow">
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
+            </div>
+        </div>
+
+        <div id="menuClouds" class="hidden">
+            <div class="row"> 
+                <section class="hobbyimg"> <img src="Photos/Content/Clouds/" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Clouds/" alt=""> </section>
+                <section class="hobbyimg"> <img src="Photos/Content/Clouds/" alt=""> </section>
+            </div>
+        </div>
+        <div id="menuMinecraft" class="hidden">
+            <section class="mcimage"> <img src="Photos/Content/Games/Minecraft/" alt=""></section>
+        </div>
+    </div>
+
+    <script>
+        function showGameMenu()
+            {
+            closeTab();
+            changeColorOfMenuButtons();
+            hobbyMenu.classList.remove('hidden');
+            menuGames.classList.remove('hidden');
+            document.getElementById("menugamebutton").style.color = "rgb(0, 0, 0)";
+            }
+
+        function showMangaMenu()
+            {
+            closeTab();
+            changeColorOfMenuButtons();
+            hobbyMenu.classList.remove('hidden');
+            menuManga.classList.remove('hidden');
+            document.getElementById("menumangabutton").style.color = "rgb(0, 0, 0)";
+            }
+
+        function showMusicMenu()
+            {
+            closeTab();
+            changeColorOfMenuButtons();
+            hobbyMenu.classList.remove('hidden');
+            menuMusic.classList.remove('hidden');
+            document.getElementById("menumusicbutton").style.color = "rgb(0, 0, 0)";
+            }
+
+        function showCatsMenu()
+            {
+            closeTab();
+            changeColorOfMenuButtons();
+            hobbyMenu.classList.remove('hidden');
+            menuCats.classList.remove('hidden');
+            document.getElementById("menucatbutton").style.color = "rgb(0, 0, 0)";
+            }
+            
+        function showCloudsMenu()
+            {
+            closeTab();
+            changeColorOfMenuButtons();
+            hobbyMenu.classList.remove('hidden');
+            menuClouds.classList.remove('hidden');
+            document.getElementById("menucloudbutton").style.color = "rgb(0, 0, 0)";
+            }
+        
+        function minecraftMenu()
+            {
+            changeColorOfMenuButtons();
+            menuGames.classList.add('hidden');
+            
+            }
+        
+        function closeTab()
+            {
+            menuGames.classList.add('hidden');
+            menuManga.classList.add('hidden');
+            menuMusic.classList.add('hidden');
+            menuCats.classList.add('hidden');
+            menuClouds.classList.add('hidden');
+            hobbyMenu.classList.add('hidden');
+            }
+
+        function changeColorOfMenuButtons()
+            {
+            document.getElementById("menugamebutton").style.color = "rgb(2, 141, 184)";
+            document.getElementById("menumangabutton").style.color = "rgb(2, 141, 184)";
+            document.getElementById("menumusicbutton").style.color = "rgb(2, 141, 184)";
+            document.getElementById("menucatbutton").style.color = "rgb(2, 141, 184)";
+            document.getElementById("menucloudbutton").style.color = "rgb(2, 141, 184)";
+            }
+    </script>
+</body>
+</html>
