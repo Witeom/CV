@@ -6,6 +6,7 @@ Buttons under "Things I Like" open menu to hobbies that show what exactly I like
 In this menu you'll find content with images, text on top that will get you to other hobbies without going to home page and x button that closes the menu. <br>
 The icons in top right corner in home page are interactable and will open links in new tab. <br>
 
+<hr>
 
 Pl: <br>
 Siemka :3
