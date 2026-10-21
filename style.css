@@ -46,7 +46,7 @@ h2 {
     top: 0px;
 }
 
-.myself:hover {
+.secretmyself:hover {
     width: 95%;
     height: 900px;
     z-index: 3;
@@ -70,9 +70,26 @@ h2 {
     border-radius: 15px;
 }
 
+.links a {
+    color: inherit;
+}
+
 .icon {
     width: 50px;
     height: 50px;
+}
+
+.yuri {
+    position: absolute;
+    bottom: -5px;
+    right: -27px;
+    width: 2%;
+    height: auto;
+}
+
+.yuri img {
+    width: 25%;
+    height: 25%;
 }
 
 .ilike {
@@ -158,6 +175,7 @@ h2 {
 
 .row {
     width: 100%;
+    height: auto;
     justify-content: center;
     display: flex;
     justify-content: space-between;
@@ -182,9 +200,27 @@ h2 {
     border-radius: 5%;
 }
 
+.mangaimg img {
+    height: 310px;
+    width: 200px;
+}
+
+.musicimg img {
+    height: 240px;
+    width: 190px;
+}
+
+
 .catimg img {
     height: 200px;
     width: 200px;
+}
+
+.mcbutton {
+    width: 20%;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .hidden 

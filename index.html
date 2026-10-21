@@ -9,16 +9,18 @@
 <body>
     <div class="main">
         <div class="head">
-            <img src="Photos/Witek.jpg" alt="" class="myself">
+            <img id="witek" class="myself" src="Photos/Witek.jpg" alt="">
             <div class="smallInfo">
                 <h1 class="whitetxt">Witek Najman</h1>
-                <h2 class="whitetxt">07.05.2009</h2>
+                <h2 class="whitetxt">witek.najman@gmail.com</h2>
+                <h2 class="whitetxt">+48 505 997 537</h2>
+                <h2 class="whitetxt">Białystok</h2>
             </div>
             <div class="links">
                 <a href="https://spotify.com" target="blank"> <img src="Photos/Icons/spotify.png" alt="" class="icon"> </a>
                 <a href="https://steamcommunity.com/id/witeom/" target="blank"> <img src="Photos/Icons/steam.png" alt="" class="icon"> </a>
-                <a href="" target="blank"> <img src="" alt="" class="icon"> </a>
-                <a href="" target="blank"> <img src="" alt="" class="icon"> </a>
+                <a href="https://www.youtube.com/@Witeom" target="blank"> <img src="Photos/Icons/youtube.png" alt="" class="icon"> </a>
+                <a href="https://github.com/Witeom" target="blank"> <img src="Photos/Icons/github.png" alt="" class="icon"> </a>
             </div>
         </div>  
 
@@ -32,6 +34,7 @@
                 <div class="ilikedevide" onclick="showCloudsMenu()"> <img src="Photos/Buttons/clouds.png" alt="" class="clouds buttonsetting"> </div>
             </div>
             <div>
+                <br> <hr>
                 <h1 class="whitetxt"> Other Stuff About Me </h1>
                 <hr>
                 <h2 class="whitetxt"> 
@@ -41,7 +44,7 @@
                     When I look for information to help me with something I mostly look up reddit or other pages to see if people had the same problem. <br>
                     I'm not the best at working in group, but I keep trying. Of course it depends on other people too.
                 </h2>
-                <br> <hr> <hr>
+                <hr> <br> <hr>
                 <h1 class="whitetxt"> Education </h1>
                 <hr>
                 <h2 class="whitetxt">
@@ -51,6 +54,10 @@
                     2023: Zespoł Szkol Technicznych im. gen. W. Andersa (Railwayman) <br>
                     2024-2026: Zespoł Szkol Technicznych im. gen. W. Andersa (Programmer)
                 </h2>
+                <hr>
+            </div>
+            <div class="yuri">
+                <img src="Photos/Buttons/yuri.jpg" alt="" onclick="evil()">
             </div>
         </div>
     </div>
@@ -87,28 +94,50 @@
         </div>
 
         <div id="menuManga" class="hidden">
-            <h1> Manga </h1>
             <div class="row IIrow"> 
-                <section class="hobbyimg"> <img src="Photos/Content/Manga/bloomintoyou.png" alt=""> </section>
-                <section class="hobbyimg"> <img src="Photos/Content/Manga/chainsawman.png" alt=""> </section>
-                <section class="hobbyimg"> <img src="Photos/Content/Manga/firepunch.png" alt=""> </section>
-                <section class="hobbyimg"> <img src="Photos/Content/Manga/girlslasttour.png" alt=""> </section>
-                <section class="hobbyimg"> <img src="Photos/Content/Manga/howdoiturnmybestfriendintoagirlfriend.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/bloomintoyou.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/chainsawman.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/firepunch.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/girlslasttour.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/howdoiturnmybestfriendintoagirlfriend.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/iwanttoloveyoutillyourdyingday.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/kamiinabotanfullyblossomswhendrunk.png" alt=""> </section>
             </div>
             <div class="row IIrow"> 
-                <section class="hobbyimg"> <img src="Photos/Content/Manga/iwanttoloveyoutillyourdyingday.png" alt=""> </section>
-                <section class="hobbyimg"> <img src="Photos/Content/Manga/lesbianbrothels.png" alt=""> </section>
-                <section class="hobbyimg"> <img src="Photos/Content/Manga/loveanddreamsdontmix.png" alt=""> </section>
-                <section class="hobbyimg"> <img src="Photos/Content/Manga/wispermealovesong.png" alt=""> </section>
-                <section class="hobbyimg"> <img src="Photos/Content/Manga/zenra.zip.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/lesbianbrothels.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/loveanddreamsdontmix.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/lovebullet.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/theguyshewasintrestedinwasntaguyatall.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/toshishitanosenpai.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/wispermealovesong.png" alt=""> </section>
+                <section class="hobbyimg mangaimg"> <img src="Photos/Content/Manga/zenra.zip.png" alt=""> </section>
             </div>
         </div>
 
         <div id="menuMusic" class="hidden">
-            <div class="row"> 
-                <section class="hobbyimg"> <img src="Photos/Content/Music/" alt=""> </section>
-                <section class="hobbyimg"> <img src="Photos/Content/Music/" alt=""> </section>
-                <section class="hobbyimg"> <img src="Photos/Content/Music/" alt=""> </section>
+            <div class="row IIIrow"> 
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/7vlM4bn4gPubcmntK8UBp0?si=705c6e6b8a504cfe" target="blank"> <img src="Photos/Content/Music/ArcSystemWorks.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/4bwIf0yXJf0F9AmOl2J78M?si=eec7826105c24e74" target="blank"> <img src="Photos/Content/Music/Camellia.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/63OPPk7uHFdcpTuOFYpNfV?si=234499f07ce94717" target="blank"> <img src="Photos/Content/Music/ChrisChristodoulou.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/53e9n1LucuH3guikmtv180?si=19da32455f314684" target="blank"> <img src="Photos/Content/Music/Femtanyl.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/4gHs8pWsgZpndQZKs6QVRH?si=ed5f8aa305304c96" target="blank"> <img src="Photos/Content/Music/GlassBeach.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/38SKxCyfrmNWqWunb9wGHP?si=Uyh1Xhp9Ql-uITKLIrQ2-w" target="blank"> <img src="Photos/Content/Music/GoodKid.png" alt=""> </a> </section>
+            </div>
+            <div class="row IIIrow"> 
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/0YP54yLYq29gcxrD7bJ3Tx?si=64c08ca23ab44072" target="blank"> <img src="Photos/Content/Music/Haisebi.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/5fKs3wJDbfdrr7qLQu0JpF?si=c6ac6f7f0ef14867" target="blank"> <img src="Photos/Content/Music/HeavenPierceHer.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/2nvl0N9GwyX69RRBMEZ4OD?si=9f6905f49550404b" target="blank"> <img src="Photos/Content/Music/KessokuBand.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/17Vw9uuOYB7XYjPt0LNFN0?si=5730a5902bc84e3e" target="blank"> <img src="Photos/Content/Music/MachineGirl.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/5tXUIbGjW1uqXoy8cPW8MB?si=ff2267f851bb4367" target="blank"> <img src="Photos/Content/Music/Meganeko.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/5HEmoUIF04lmO7vyESDqkH?si=6c7650820a304605" target="blank"> <img src="Photos/Content/Music/Shiftyz.png" alt=""> </a> </section>
+            </div>
+            <div class="row IIIrow"> 
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/0MWnJHMAZneJ1JA6S8Fx1b?si=3d6216355cc343ed" target="blank"> <img src="Photos/Content/Music/Shteppi.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb?si=dd939a60e0054123" target="blank"> <img src="Photos/Content/Music/TameImpala.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/77JLoURVdxC8jnr3DPY05x?si=6f2487eb0e6948c5" target="blank"> <img src="Photos/Content/Music/Tanger.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/3EogvEV9nc7Av6ngy8CIeJ?si=c42c6b74b1a24136" target="blank"> <img src="Photos/Content/Music/TheVanishedPeople.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/57DlMWmbVIf2ssJ8QBpBau?si=ac45182ff7e94641" target="blank"> <img src="Photos/Content/Music/TobyFox.png" alt=""> </a> </section>
+                <section class="hobbyimg musicimg"> <a href="https://open.spotify.com/artist/12303aTZih4ucf1yu1uGQg?si=302bbb9175c9490a" target="blank"> <img src="Photos/Content/Music/YouAreAnAngel.png" alt=""> </a> </section>
             </div>
         </div>
 
@@ -132,25 +161,76 @@
                 <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catmy7.jpg" alt=""> </section>
             </div>
             <div class="row IIIrow">
-                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
-                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
-                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
-                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
-                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
-                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
-                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catmy8.jpg" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catbiglick.png" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/cathuh.png" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/freakiestfreak.jpg" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catsillyofficial.png" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catonblue.png" alt=""> </section>
+                <section class="hobbyimg catimg"> <img src="Photos/Content/Cats/catshock.png" alt=""> </section>
             </div>
         </div>
 
         <div id="menuClouds" class="hidden">
-            <div class="row"> 
-                <section class="hobbyimg"> <img src="Photos/Content/Clouds/" alt=""> </section>
-                <section class="hobbyimg"> <img src="Photos/Content/Clouds/" alt=""> </section>
-                <section class="hobbyimg"> <img src="Photos/Content/Clouds/" alt=""> </section>
+            <div class="row IIIrow"> 
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds1.jpg" alt=""> </section>
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds2.jpg" alt=""> </section>
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds3.jpg" alt=""> </section>
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds4.jpg" alt=""> </section>
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds5.jpg" alt=""> </section>
+            </div>
+            <div class="row IIIrow"> 
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds6.jpg" alt=""> </section>
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds7.jpg" alt=""> </section>
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds8.jpg" alt=""> </section>
+                <section class="hobbyimg cloudimg" onmouseover="cloud9over()" onmouseout="cloud9off()"> <img id="cloudNine1" src="Photos/Content/Clouds/clouds9.jpg" alt=""> <img id="cloudNine2" class="hidden" src="Photos/Content/Clouds/clouds9.5.jpg" alt=""> </section>
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds10.jpg" alt=""> </section>
+            </div>
+            <div class="row IIIrow"> 
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds11.jpg" alt=""> </section>
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds12.jpg" alt=""> </section>
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds13.jpg" alt=""> </section>
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds14.jpg" alt=""> </section>
+                <section class="hobbyimg cloudimg"> <img src="Photos/Content/Clouds/clouds15.jpg" alt=""> </section>
             </div>
         </div>
+        
         <div id="menuMinecraft" class="hidden">
-            <section class="mcimage"> <img src="Photos/Content/Games/Minecraft/" alt=""></section>
+            <div id="menuMinecraftButtons">
+                <div class="row">
+                    <section class="hobbyimg mcbutton"> <img src="Photos/Content/Games/Minecraft/Buttons/foreverworld.png" alt="" onclick="foreverWorldMenu()"> </section>
+                    <section class="hobbyimg mcbutton"> <a href="https://sky.shiiyu.moe/stats/Witeom/Peach#Accessories" target="blank"> <img src="Photos/Content/Games/Minecraft/Buttons/skyblockhypixel.png" alt=""> </a> </section>
+                </div>
+            </div>
+            <div id="mcCreateForverWorld" class="hidden">
+                <div class="row IIIrow">
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc1.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc2.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc3.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc4.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc5.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc6.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc7.png" alt=""></section>
+                </div>
+                <div class="row IIIrow">
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc8.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc9.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc10.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc11.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc12.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc13.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc14.png" alt=""></section>
+                </div>
+                <div class="row IIIrow">
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc15.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc16.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc17.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc18.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc19.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc20.png" alt=""></section>
+                    <section class="hobbyimg mcimg"> <img src="Photos/Content/Games/Minecraft/ForeverWorld/mc21.png" alt=""></section>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -204,7 +284,14 @@
             {
             changeColorOfMenuButtons();
             menuGames.classList.add('hidden');
-            
+            menuMinecraft.classList.remove('hidden');
+            menuMinecraftButtons.classList.remove('hidden');
+            }
+
+        function foreverWorldMenu()
+            {
+            menuMinecraftButtons.classList.add('hidden');
+            mcCreateForverWorld.classList.remove('hidden');
             }
         
         function closeTab()
@@ -215,6 +302,8 @@
             menuCats.classList.add('hidden');
             menuClouds.classList.add('hidden');
             hobbyMenu.classList.add('hidden');
+            menuMinecraft.classList.add('hidden');
+            mcCreateForverWorld.classList.add('hidden');
             }
 
         function changeColorOfMenuButtons()
@@ -224,6 +313,23 @@
             document.getElementById("menumusicbutton").style.color = "rgb(2, 141, 184)";
             document.getElementById("menucatbutton").style.color = "rgb(2, 141, 184)";
             document.getElementById("menucloudbutton").style.color = "rgb(2, 141, 184)";
+            }
+
+        function cloud9over()
+            {
+            cloudNine1.classList.add('hidden');
+            cloudNine2.classList.remove('hidden');
+            }
+
+        function cloud9off()
+            {
+            cloudNine1.classList.remove('hidden');
+            cloudNine2.classList.add('hidden');
+            }
+        
+        function evil()
+            {
+            witek.classList.add('secretmyself');
             }
     </script>
 </body>
