@@ -9,8 +9,6 @@ Some images in hobby menu are interactable like: <br>
  -Minecraft and buttons in its menu <br>
  -9th Cloud <br>
  -All images of artists open link with thier spotify profile <br>
-<br>
-...bottom...right...
 
 <hr>
 
@@ -25,5 +23,3 @@ Z niktórymi obrazkami w menu z hobby da się interaktować takimi jak: <br>
  -Minecraft i przyciski w jego menu <br>
  -Dziewiąta chmura <br>
  -Wszystkie zdjęcia z artystami ze spotify odpalają ich profile tam <br>
-<br>
-...prawy...dolny...
