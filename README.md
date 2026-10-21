@@ -12,7 +12,6 @@ Some images in hobby menu are interactable like: <br>
 <br>
 ...bottom...right...
 
-
 <hr>
 
 Pl: <br>
@@ -23,8 +22,8 @@ Przyciski pod "Things I Like" otwierają menu z danym hobby, w którym pokażą 
 W tym menu znajdziesz rzeczy takie jak zdjęcia, tekst na górze, który przeniesie cię do innych hobby bez potrzeby przechodzenia na stronę główną oraz przycisk x, który wyłącza menu. <br>
 Ikony w prawym górnym rogu na stronie głównej przeniosą cie do danej strony. <br>
 Z niktórymi obrazkami w menu z hobby da się interaktować takimi jak: <br>
- -Minecraft i przyciski w jego menu
- -Dziewiąta chmura
+ -Minecraft i przyciski w jego menu <br>
+ -Dziewiąta chmura <br>
  -Wszystkie zdjęcia z artystami ze spotify odpalają ich profile tam <br>
 <br>
 ...prawy...dolny...
